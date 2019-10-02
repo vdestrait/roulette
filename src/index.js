@@ -13,9 +13,9 @@ $('.number-wrap').prepend(zeroDiv);
 const bet = [];
 
 $('.number').on('click', function () {
+  bet.push($(this).text());
   const coin = '<div class="coin">1€</div>';
   $(this).append(coin);
-  bet.push(parseInt($(this).text());
 });
 
 $('#run').on('click', function () {
@@ -24,4 +24,4 @@ $('#run').on('click', function () {
   const resultDiv = `<div id="result">${result}</div>`;
   $('.game-area').append(resultDiv);
 });
- console.log(bet);
+console.log(bet);
