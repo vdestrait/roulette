@@ -5,7 +5,7 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 5rem 0;
+  padding: 3rem 0;
   color: white;
   text-align: center;
 }
@@ -13,7 +13,10 @@ body {
 * {
   box-sizing: border-box;
 }
-
+h1 {
+  color: lightseagreen;
+  margin-bottom: 5rem;
+}
 #carpet {
   
 }
@@ -65,7 +68,7 @@ body {
   height: 30px;
   width: 30px;
   padding: 3px;
-  background-color: goldenrod;
+  background-color: gold;
   border: 1px solid white;
   border-radius: 50%;
   position: absolute;

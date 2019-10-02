@@ -13,7 +13,8 @@ $('.number-wrap').prepend(zeroDiv);
 const bet = [];
 
 $('.number').on('click', function () {
-  bet.push($(this).text());
+  // const thisNumber =
+  bet.push(parseInt(($(this).text()), 10));
   const coin = '<div class="coin">1€</div>';
   $(this).append(coin);
 });
